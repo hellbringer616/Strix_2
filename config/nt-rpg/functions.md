@@ -1,3 +1,19 @@
+###### Returns a list of nearby allies
+
+
+```javascript
+for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
+```
+
+
+- Parameters:
+
+    * entity - allies for the entity
+    * radius
+    * allyEntity - callback
+
+
+
 ###### Do action for every nearby enemy
 
 
@@ -168,22 +184,6 @@ get_location(player_or_entity)
 
     * entity - An entitz
     * @return - location object
-
-
-
-###### Returns a list of nearby allies
-
-
-```javascript
-for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
-```
-
-
-- Parameters:
-
-    * entity - allies for the entity
-    * radius
-    * allyEntity - callback
 
 
 

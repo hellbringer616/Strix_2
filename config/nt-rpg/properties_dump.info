@@ -1,6 +1,5 @@
 arrow_damage_mult
-bow_damage_bonus
-bow_damage_mult
+blunt_weapons_damage_mult
 cleaving_damage_bonus
 cleaving_damage_mult
 cooldown_reduce
@@ -9,8 +8,6 @@ fire_damage_bonus_mult
 fire_damage_protection_mult
 health_cost_reduce
 health_regen
-hoes_damage_bonus
-hoes_damage_mult
 ice_damage_bonus_mult
 ice_damage_protection_mult
 lightning_damage_bonus_mult
@@ -27,14 +24,12 @@ other_projectile_damage_mult
 physical_damage_bonus_mult
 physical_damage_protection_mult
 pickaxes_damage_bonus
-pickaxes_damage_mult
 projectile_damage_bonus
 reserved_health_mult
 reserved_mana_mult
-shovels_damage_bonus
-shovels_damage_mult
 stun_duration_mult
 swords_damage_bonus
 swords_damage_mult
+tools_damage_bonus
 walk_speed
 weapon_damage_bonus

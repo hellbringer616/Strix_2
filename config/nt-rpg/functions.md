@@ -2,38 +2,6 @@
 
 
 ```javascript
-for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
-```
-
-
-- Parameters:
-
-    * entity - allies for the entity
-    * radius
-    * allyEntity - callback
-
-
-
-###### Do action for every nearby enemy
-
-
-```javascript
-for_each_nearby_enemy(entity, radius, new Consumer() { apply: function(entity} { .. })
-```
-
-
-- Parameters:
-
-    * entity - An entity which we search for its enemies
-    * range - Maximal search range
-    * consumer - callback
-
-
-
-###### Returns a list of nearby allies
-
-
-```javascript
 var list = nearby_allies(entity, radius)
 ```
 
@@ -184,6 +152,81 @@ get_location(player_or_entity)
 
     * entity - An entitz
     * @return - location object
+
+
+
+###### Adds potion effect to the entity
+
+
+```javascript
+add_potion_effect(target, builder)
+```
+
+
+- Parameters:
+
+    * target - An entitz
+    * builder - potion effect builder
+
+
+
+###### Converts a time to ingame interval represented in server ticks, conversion is not taking into account server lag
+
+
+```javascript
+to_server_ticks(100, timeunit)
+```
+
+
+- Parameters:
+
+    * number - time to be converted
+    * timeunit - an enum value of TimeUnit
+
+
+
+###### Returns an instance of PotionEffectBuilder
+
+
+```javascript
+var builder = potion_effect_builder("potioneffectid")
+```
+
+
+- Parameters:
+
+
+
+
+###### Do action for every nearby enemy
+
+
+```javascript
+for_each_nearby_enemy(entity, radius, new Consumer() { apply: function(entity} { .. })
+```
+
+
+- Parameters:
+
+    * entity - An entity which we search for its enemies
+    * range - Maximal search range
+    * consumer - callback
+
+
+
+###### Returns a list of nearby allies
+
+
+```javascript
+for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
+```
+
+
+- Parameters:
+
+    * entity - allies for the entity
+    * radius
+    * allyEntity - callback
 
 
 

@@ -1,7 +1,7 @@
 arrow_damage_mult
+blades_damage_mult
 blunt_weapons_damage_mult
 cleaving_damage_bonus
-cleaving_damage_mult
 cooldown_reduce
 experience_mult
 fire_damage_bonus_mult
@@ -29,7 +29,6 @@ reserved_health_mult
 reserved_mana_mult
 stun_duration_mult
 swords_damage_bonus
-swords_damage_mult
 tools_damage_bonus
 walk_speed
 weapon_damage_bonus

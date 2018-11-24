@@ -1,7 +1,7 @@
 ## Skills
 ----
 
-###### 
+###### GrapplingHook
 
 *ID:* ntrpg:grapplinghook
 
@@ -17,7 +17,7 @@
 
 
 
----###### 
+---###### Soulbind
 
 *ID:* ntrpg:soulbind
 
@@ -41,7 +41,7 @@
 
 
 
----###### 
+---###### Slow
 
 *ID:* ntrpg:slow
 
@@ -61,7 +61,7 @@
 
 
 
----###### 
+---###### Conductivity
 
 *ID:* ntrpg:conductivity
 
@@ -85,7 +85,7 @@
 
 
 
----###### 
+---###### Potion
 
 *ID:* ntrpg:potion
 
@@ -97,7 +97,7 @@
 
 
 
----###### 
+---###### BattleCharge
 
 *ID:* ntrpg:battlecharge
 
@@ -121,7 +121,7 @@
 
 
 
----###### 
+---###### Harmtouch
 
 *ID:* ntrpg:harmtouch
 
@@ -137,7 +137,7 @@
 
 
 
----###### 
+---###### Wrestle
 
 *ID:* ntrpg:wrestle
 
@@ -161,7 +161,7 @@
 
 
 
----###### 
+---###### Empathy
 
 *ID:* ntrpg:empathy
 
@@ -181,7 +181,7 @@
 
 
 
----###### 
+---###### Stun
 
 *ID:* ntrpg:stun
 
@@ -201,7 +201,7 @@
 
 
 
----###### 
+---###### Arrowstorm
 
 *ID:* ntrpg:arrowstorm
 
@@ -229,7 +229,7 @@
 
 
 
----###### 
+---###### BurningPrescense
 
 *ID:* ntrpg:burningprescense
 
@@ -253,7 +253,7 @@
 
 
 
----###### 
+---###### Dampen
 
 *ID:* ntrpg:dampen
 
@@ -293,7 +293,7 @@
 
 
 
----###### 
+---###### Jump
 
 *ID:* ntrpg:jump
 
@@ -309,7 +309,7 @@
 
 
 
----###### 
+---###### Astronomy
 
 *ID:* ntrpg:astronomy
 
@@ -321,7 +321,7 @@
 
 
 
----###### 
+---###### ResoluteTechnique
 
 *ID:* ntrpg:resolutetechnique
 
@@ -333,7 +333,7 @@
 
 
 
----###### 
+---###### Lightning
 
 *ID:* ntrpg:lightning
 
@@ -353,7 +353,7 @@
 
 
 
----###### 
+---###### Dodge
 
 *ID:* ntrpg:dodge
 
@@ -369,7 +369,7 @@
 
 
 
----###### 
+---###### Speed
 
 *ID:* ntrpg:speed
 
@@ -389,7 +389,7 @@
 
 
 
----###### 
+---###### Basher
 
 *ID:* ntrpg:basher
 
@@ -417,7 +417,7 @@
 
 
 
----###### 
+---###### Megabolt
 
 *ID:* ntrpg:megabolt
 
@@ -437,7 +437,7 @@
 
 
 
----###### 
+---###### Dementia
 
 *ID:* ntrpg:dementia
 
@@ -457,7 +457,7 @@
 
 
 
----###### 
+---###### Web
 
 *ID:* ntrpg:web
 
@@ -473,7 +473,7 @@
 
 
 
----###### 
+---###### Multibolt
 
 *ID:* ntrpg:multibolt
 
@@ -493,7 +493,7 @@
 
 
 
----###### 
+---###### Fireball
 
 *ID:* ntrpg:fireball
 
@@ -513,7 +513,7 @@
 
 
 
----###### 
+---###### Bandage
 
 *ID:* ntrpg:bandage
 
@@ -529,7 +529,7 @@
 
 
 
----###### 
+---###### IceBolt
 
 *ID:* ntrpg:icebolt
 
@@ -557,7 +557,7 @@
 
 
 
----###### 
+---###### Pandemic
 
 *ID:* ntrpg:pandemic
 
@@ -585,7 +585,7 @@
 
 
 
----###### 
+---###### Critical
 
 *ID:* ntrpg:critical
 
@@ -605,7 +605,7 @@
 
 
 
----###### 
+---###### Portal
 
 *ID:* ntrpg:portal
 
@@ -641,7 +641,7 @@
 
 
 
----###### 
+---###### Invisibility
 
 *ID:* ntrpg:invisibility
 
@@ -657,7 +657,7 @@
 
 
 
----###### 
+---###### Teleport
 
 *ID:* ntrpg:teleport
 
@@ -673,7 +673,7 @@
 
 
 
----###### 
+---###### GroupHeal
 
 *ID:* ntrpg:groupheal
 
@@ -693,7 +693,7 @@
 
 
 
----###### 
+---###### ManaShield
 
 *ID:* ntrpg:manashield
 
@@ -749,7 +749,7 @@
 
 
 
----###### 
+---###### Despair
 
 *ID:* ntrpg:despair
 
@@ -773,7 +773,7 @@
 
 
 
----###### 
+---###### ShadowRun
 
 *ID:* ntrpg:shadowrun
 
@@ -805,7 +805,7 @@
 
 
 
----###### 
+---###### Drain
 
 *ID:* ntrpg:drain
 
@@ -821,7 +821,7 @@
 
 
 
----###### 
+---###### BrainSap
 
 *ID:* ntrpg:brainsap
 
@@ -845,7 +845,7 @@
 
 
 
----###### 
+---###### EnderPearl
 
 *ID:* ntrpg:enderpearl
 

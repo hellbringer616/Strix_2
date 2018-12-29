@@ -1,24 +1,8 @@
-###### Do action for every nearby enemy
-
-
-```javascript
-for_each_nearby_enemy(entity, radius, new Consumer() { apply: function(entity} { .. })
-```
-
-
-- Parameters:
-
-    * entity - An entity which we search for its enemies
-    * range - Maximal search range
-    * consumer - callback
-
-
-
 ###### Returns a list of nearby allies
 
 
 ```javascript
-var list = nearby_allies(entity, radius)
+for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
 ```
 
 
@@ -26,22 +10,7 @@ var list = nearby_allies(entity, radius)
 
     * entity - allies for the entity
     * radius
-
-
-
-###### Returns current enemy entity in crosshair
-
-
-```javascript
-var target = targeted_enemy(entity, range)
-```
-
-
-- Parameters:
-
-    * entity - An entity which we search for its enemies
-    * range - Maximal search range
-    * @returns - An entity instance or null
+    * allyEntity - callback
 
 
 
@@ -214,11 +183,27 @@ var builder = potion_effect_builder("potioneffectid")
 
 
 
+###### Do action for every nearby enemy
+
+
+```javascript
+for_each_nearby_enemy(entity, radius, new Consumer() { apply: function(entity} { .. })
+```
+
+
+- Parameters:
+
+    * entity - An entity which we search for its enemies
+    * range - Maximal search range
+    * consumer - callback
+
+
+
 ###### Returns a list of nearby allies
 
 
 ```javascript
-for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
+var list = nearby_allies(entity, radius)
 ```
 
 
@@ -226,7 +211,22 @@ for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ..
 
     * entity - allies for the entity
     * radius
-    * allyEntity - callback
+
+
+
+###### Returns current enemy entity in crosshair
+
+
+```javascript
+var target = targeted_enemy(entity, range)
+```
+
+
+- Parameters:
+
+    * entity - An entity which we search for its enemies
+    * range - Maximal search range
+    * @returns - An entity instance or null
 
 
 

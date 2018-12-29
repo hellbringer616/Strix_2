@@ -45,7 +45,7 @@
 
 *ID:* ntrpg:slow
 
-*Description:* 
+*Description:* Slows targeted entity
 
 *DamageType:* Deals no damage
 
@@ -65,7 +65,7 @@
 
 *ID:* ntrpg:conductivity
 
-*Description:* 
+*Description:* Curse, Increases lightning damage to affected entities
 
 *DamageType:* Deals no damage
 
@@ -125,7 +125,7 @@
 
 *ID:* ntrpg:harmtouch
 
-*Description:* 
+*Description:* Deals magical damage to the targeted entity
 
 *DamageType:* magic
 
@@ -141,7 +141,7 @@
 
 *ID:* ntrpg:wrestle
 
-*Description:* 
+*Description:* Stuns all enemies around the caster
 
 *DamageType:* attack
 
@@ -185,7 +185,7 @@
 
 *ID:* ntrpg:stun
 
-*Description:* 
+*Description:* Stuns targeted entity
 
 *DamageType:* attack
 
@@ -205,7 +205,7 @@
 
 *ID:* ntrpg:arrowstorm
 
-*Description:* 
+*Description:* Rapidly fires multiple arrows.
 
 *DamageType:* projectile
 
@@ -257,7 +257,7 @@
 
 *ID:* ntrpg:dampen
 
-*Description:* 
+*Description:* Becomes invulnerable if attacking player is below mana treshold
 
 *DamageType:* Deals no damage
 
@@ -266,6 +266,30 @@
    * min-mana
 
    * min-mana_levelbonus
+
+
+
+---###### DropTNT
+
+*ID:* ntrpg:droptnt
+
+*Description:* Drops primed TNT at caster's feet
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * amount_levelbonus
+
+   * damage
+
+   * explosion-radius
+
+   * explosion-radius_levelbonus
+
+   * amount
+
+   * damage_levelbonus
 
 
 
@@ -297,7 +321,7 @@
 
 *ID:* ntrpg:jump
 
-*Description:* 
+*Description:* Jumps into air with incremented velocity
 
 *DamageType:* Deals no damage
 
@@ -309,11 +333,23 @@
 
 
 
+---###### arrowmulti
+
+*ID:* strix:arrowmulti
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
 ---###### Astronomy
 
 *ID:* ntrpg:astronomy
 
-*Description:* 
+*Description:* Ability to craft teleportation scroll, Consumes paper on use.
 
 *DamageType:* Deals no damage
 
@@ -337,7 +373,7 @@
 
 *ID:* ntrpg:lightning
 
-*Description:* 
+*Description:* Strucks entity with a lightning bolt
 
 *DamageType:* lightning
 
@@ -373,7 +409,7 @@
 
 *ID:* ntrpg:speed
 
-*Description:* 
+*Description:* Temporarily boosts caster's walk speed
 
 *DamageType:* Deals no damage
 
@@ -421,7 +457,7 @@
 
 *ID:* ntrpg:megabolt
 
-*Description:* 
+*Description:* Strucks all nearby entities with a lightning bolt
 
 *DamageType:* lightning
 
@@ -441,7 +477,7 @@
 
 *ID:* ntrpg:dementia
 
-*Description:* 
+*Description:* Places a debuff on targetted player, which decreases all skill levels
 
 *DamageType:* Deals no damage
 
@@ -461,7 +497,7 @@
 
 *ID:* ntrpg:web
 
-*Description:* 
+*Description:* Summons Web blocks under targeted entity
 
 *DamageType:* Deals no damage
 
@@ -477,7 +513,7 @@
 
 *ID:* ntrpg:multibolt
 
-*Description:* 
+*Description:* Strucks an entity with a lightning bolt multiple times
 
 *DamageType:* lightning
 
@@ -497,7 +533,7 @@
 
 *ID:* ntrpg:fireball
 
-*Description:* 
+*Description:* Summons a fireball
 
 *DamageType:* fire
 
@@ -513,7 +549,7 @@
 
 
 
----###### Bandage
+---###### Heal, also stops bleeding
 
 *ID:* ntrpg:bandage
 
@@ -533,7 +569,7 @@
 
 *ID:* ntrpg:icebolt
 
-*Description:* 
+*Description:* Fires a icebolt which deals damage and slows entity it hits
 
 *DamageType:* ice
 
@@ -561,7 +597,7 @@
 
 *ID:* ntrpg:pandemic
 
-*Description:* 
+*Description:* AOE debuff, which damages nearby enemies while healing the caster
 
 *DamageType:* magic
 
@@ -589,7 +625,7 @@
 
 *ID:* ntrpg:critical
 
-*Description:* 
+*Description:* Chance to deal a critical strike
 
 *DamageType:* meelecritical
 
@@ -609,7 +645,7 @@
 
 *ID:* ntrpg:portal
 
-*Description:* 
+*Description:* Opens a portal. The portal may be targeted by a teleportation scroll.
 
 *DamageType:* Deals no damage
 
@@ -641,6 +677,18 @@
 
 
 
+---###### swordmulti
+
+*ID:* strix:swordmulti
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
 ---###### Invisibility
 
 *ID:* ntrpg:invisibility
@@ -661,7 +709,7 @@
 
 *ID:* ntrpg:teleport
 
-*Description:* 
+*Description:* Teleports caster to targeted location
 
 *DamageType:* Deals no damage
 
@@ -677,7 +725,7 @@
 
 *ID:* ntrpg:groupheal
 
-*Description:* 
+*Description:* AOE heal for caster and its nearby allies
 
 *DamageType:* Deals no damage
 
@@ -697,7 +745,7 @@
 
 *ID:* ntrpg:manashield
 
-*Description:* 
+*Description:* Incoming damage will drain manapool, instead of life.  
 
 *DamageType:* Deals no damage
 
@@ -777,7 +825,7 @@
 
 *ID:* ntrpg:shadowrun
 
-*Description:* 
+*Description:* Grants caster invisibility and increments walking speed. First meele attack caster do removes the buff but deals increased damage. May be casted only while in specific light level.
 
 *DamageType:* Deals no damage
 
@@ -809,7 +857,7 @@
 
 *ID:* ntrpg:drain
 
-*Description:* 
+*Description:* Meele attacks will drain mana from attacked entity
 
 *DamageType:* attack
 
@@ -848,6 +896,18 @@
 ---###### EnderPearl
 
 *ID:* ntrpg:enderpearl
+
+*Description:* Allows the player to teleport via Enter Pearl
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### cleavingmulti
+
+*ID:* strix:cleavingmulti
 
 *Description:* 
 

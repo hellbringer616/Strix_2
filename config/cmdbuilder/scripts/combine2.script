@@ -13,7 +13,19 @@ arguments=[
         meta {
             range="[1,64]"
         }
-    }
+    },{
+            name="player2"
+            type="Player"
+        },{
+            name="item2"
+            type="Item"
+        },{
+            name="quantity2"
+            type="Integer"
+            meta {
+                range="[1,64]"
+            }
+        }
 ]
 executors=[
     {
@@ -22,7 +34,7 @@ executors=[
         wait=250
     },
     {
-        command="give <player> <item> quantity>"
+        command="give <player2> <item2> quantity2>"
         source="server"
     }
 ]

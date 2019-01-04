@@ -1,3 +1,6 @@
+#This script takes a quantity of two item types from the players inventory
+#and gives the player a quantity of another.
+
 arguments=[
     {
         name="player"
@@ -17,12 +20,12 @@ executors=[
     {
         command="clear <player> <item> quantity>"
         source="server"
-        wait=500
+        wait=250
     },
     {
         command="clear <player> <item> quantity>"
         source="server"
-        wait=500
+        wait=250
     },
     {
         command="give <player> <item> quantity>"

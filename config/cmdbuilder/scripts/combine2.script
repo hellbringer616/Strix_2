@@ -29,7 +29,7 @@ arguments=[
 ]
 executors=[
     {
-        command="minecraft:clear <player> <item> <quantity>"
+        command="minecraft:clear <player> <item> -1 <quantity>"
         source="server"
         wait=250
     },

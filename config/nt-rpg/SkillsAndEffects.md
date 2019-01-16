@@ -5,7 +5,7 @@
 
 *ID:* ntrpg:grapplinghook
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -21,7 +21,7 @@
 
 *ID:* ntrpg:soulbind
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -89,7 +89,7 @@
 
 *ID:* ntrpg:potion
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -101,7 +101,7 @@
 
 *ID:* ntrpg:battlecharge
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -165,7 +165,7 @@
 
 *ID:* ntrpg:empathy
 
-*Description:* 
+*Description:*
 
 *DamageType:* magic
 
@@ -233,7 +233,7 @@
 
 *ID:* ntrpg:burningprescense
 
-*Description:* 
+*Description:*
 
 *DamageType:* fire
 
@@ -337,7 +337,7 @@
 
 *ID:* strix:arrowmulti
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -361,7 +361,7 @@
 
 *ID:* ntrpg:resolutetechnique
 
-*Description:* 
+*Description:*
 
 *DamageType:* attack
 
@@ -393,7 +393,7 @@
 
 *ID:* ntrpg:dodge
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -429,7 +429,7 @@
 
 *ID:* ntrpg:basher
 
-*Description:* 
+*Description:*
 
 *DamageType:* attack
 
@@ -553,7 +553,7 @@
 
 *ID:* ntrpg:bandage
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -681,7 +681,7 @@
 
 *ID:* strix:swordmulti
 
-*Description:* 
+*Description:* Increase Sword damage by percentage.
 
 *DamageType:* Deals no damage
 
@@ -693,7 +693,7 @@
 
 *ID:* ntrpg:invisibility
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -801,7 +801,7 @@
 
 *ID:* ntrpg:despair
 
-*Description:* 
+*Description:*
 
 *DamageType:* magic
 
@@ -873,7 +873,7 @@
 
 *ID:* ntrpg:brainsap
 
-*Description:* 
+*Description:*
 
 *DamageType:* magic
 
@@ -909,7 +909,7 @@
 
 *ID:* strix:cleavingmulti
 
-*Description:* 
+*Description:*
 
 *DamageType:* Deals no damage
 
@@ -1138,5 +1138,3 @@
 *Description:* Periodically heals the target and recharges mana
 
 *Parameters:* Void
-
-

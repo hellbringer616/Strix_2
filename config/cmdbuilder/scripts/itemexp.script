@@ -1,0 +1,36 @@
+#This script gives a player X amount of experience and than gives you an item
+#from itemizer
+arguments=[
+  {
+  name="player0"
+  type="player"
+  },
+  {
+  name="class"
+  string="class"
+  },
+  {
+  name="experience"
+  type="integer"
+  },
+  {
+  name="player1"
+  type="player"
+  },
+  {
+  name="item"
+  type="item"
+  }
+]
+executors=[
+  {
+  command="experiences <player0> <class> <experience>"
+  },
+  {
+  command="retrieve <item> <player1>"
+  source="server"
+  }
+]
+metadata{
+  aliases=["itemexp"]
+}

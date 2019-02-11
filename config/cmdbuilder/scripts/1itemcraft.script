@@ -1,0 +1,42 @@
+#This script takes a quantity of a registered byteitem from the players hand
+#and gives the player an item defined in the itemizer items.conf file.
+
+arguments=[
+  {
+    name="player0"
+    type="Player"
+  },
+  {
+    name="byteitemid"
+    type="string"
+  },
+  {
+    name="quantity"
+    type="Integer"
+    meta {
+        range="[1,64]"
+        }
+  },
+  {
+    name="itemid"
+    type="string"
+  },
+  {
+    name="player1"
+    type="player"
+  }
+]
+executors=[
+    {
+        command="cu has given from hand <player> <byteitemid> <quantity>"
+        source="server"
+        wait=250
+    },
+    {
+        command="retrieve <itemid> <player1>"
+        source="server"
+    }
+]
+metadata{
+  aliases=["1itemcraft"]
+}

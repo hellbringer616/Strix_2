@@ -3,8 +3,6 @@ Strix The Realm is a configuration for the NT-RPG plugin by NeumimTo. Suggestion
 
 **Special Thanks**
 
-Just wanted to give a special thanks to:
-
 NeumimTo - For his awesome API NT-RPG/NT-Core i use to make all of this possible; and also for putting up with my stupid questions...
 
 OnapleRPG - For your wonderful plugins Itemizer and Havester, and also for answering my dumb questions.

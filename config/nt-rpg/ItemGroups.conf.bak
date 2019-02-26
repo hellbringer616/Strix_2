@@ -1,55 +1,21 @@
 #Configuration which should contain structured list of items. Those items will be recognized by the plugin as weapons/armor pieces/shields
 ItemGroups: [
     {
-      WeaponClass: Vanilla
-      items: [
-          {
-              WeaponClass: Tools
-              Items: [
-                  "minecraft:diamond_hoe"
-                  "minecraft:golden_hoe"
-                  "minecraft:iron_hoe"
-                  "minecraft:stone_hoe"
-                  "minecraft:wooden_hoe"
-                  "minecraft:diamond_shovel"
-                  "minecraft:golden_shovel"
-                  "minecraft:iron_shovel"
-                  "minecraft:stone_shovel"
-                  "minecraft:wooden_shovel"
-                  "minecraft:diamond_axe"
-                  "minecraft:golden_axe"
-                  "minecraft:iron_axe"
-                  "minecraft:stone_axe"
-                  "minecraft:wooden_axe"
-                  "minecraft:diamond_pickaxe"
-                  "minecraft:golden_pickaxe"
-                  "minecraft:iron_pickaxe"
-                  "minecraft:stone_pickaxe"
-                  "minecraft:wooden_pickaxe"
-                  "minecraft:diamond_sword"
-                  "minecraft:golden_sword"
-                  "minecraft:iron_sword"
-                  "minecraft:stone_sword"
-                  "minecraft:wooden_sword"
-              ]
-              Properties: [
-                  vanilla_damage_mult
-                  vanilla_damage_bonus
-              ]
-          }
-      ]
-    }
-    {
-        WeaponClass: Slash
+        WeaponClass: Blades
         Items: [
             {
                 WeaponClass: Swords
                 Items: [
-                    "minecraft:diamond_sword;Mithril Longsword"
-                    "minecraft:iron_sword;Steel Longsword"
-                    "minecraft:iron_sword;Iron Longsword"
-                    "minecraft:stone_sword;Bronze Longsword"
-                    "minecraft:stone_sword;Primative Longsword"
+                    "minecraft:diamond_sword;Mithril Sword"
+                    "minecraft:iron_sword;Steel Sword"
+                    "minecraft:iron_sword;Iron Sword"
+                    "minecraft:stone_sword;Bronze Sword"
+                    "minecraft:stone_sword;Primative Sword"
+                    "minecraft:diamond_sword"
+                    "minecraft:golden_sword"
+                    "minecraft:iron_sword"
+                    "minecraft:stone_sword"
+                    "minecraft:wooden_sword"
                 ]
                 #Properties which you may reference in skills, or class/race configurations
                 #If the property name ends with _mult it will be recognized as multiplicator, and its default value is 1
@@ -62,19 +28,19 @@ ItemGroups: [
                 ]
             }
             {
-              WeaponClass: Daggers
-              Items: [
-                  "minecraft:diamond_hoe;Mithril Dagger"
-                  "minecraft:iron_hoe;Steel Dagger"
-                  "minecraft:iron_hoe;Iron Dagger"
-                  "minecraft:stone_hoe;Bronze Dagger"
-                  "minecraft:stone_hoe;Primative Dagger"
-              ]
-              Properties: [
-                  daggers_damage_mult
-                  daggers_damage_bonus
-                  dex_damage_bonus
-              ]
+                WeaponClass: Daggers
+                Items: [
+                    "minecraft:diamond_hoe;Mithril Dagger"
+                    "minecraft:iron_hoe;Steel Dagger"
+                    "minecraft:iron_hoe;Iron Dagger"
+                    "minecraft:stone_hoe;Bronze Dagger"
+                    "minecraft:stone_hoe;Simple Dagger"
+                ]
+                Properties: [
+                    daggers_damage_mult
+                    daggers_damage_bonus
+                    dex_damage_bonus
+                ]
             }
             #     You can simply add or edit your custom any weapon class.
             #
@@ -98,42 +64,13 @@ ItemGroups: [
         ]
     }
     {
-
-        WeaponClass: Blunt
-        Items: [
-            {
-              WeaponClass: Maces
-              Items: [
-                  "minecraft:diamond_pickaxe; Mithril Mace"
-                  "minecraft:iron_pickaxe;Steel Mace"
-                  "minecraft:iron_pickaxe;Iron Mace"
-                  "minecraft:stone_pickaxe;Bronze Mace"
-                  "minecraft:stone_pickaxe;Primative Mace"
-              ]
-              Properties: [
-                  maces_damage_mult
-                  maces_damage_bonus
-                  str_damage_bonus
-              ]
-            }
-            {
-              WeaponClass: Tools
-              Items: [
-                  "minecraft:diamond_pickaxe;Mithril Pick"
-                  "minecraft:iron_pickaxe;Steel Pick"
-                  "minecraft:iron_pickaxe;Iron Pick"
-                  "minecraft:stone_pickaxe;Bronze Pick"
-                  "minecraft:stone_pickaxe;Primative Pick"
-              ]
-            }
-        ]
-    }
-    {
         WeaponClass: Bows
         Items: [
             "minecraft:bow"
             "minecraft:bow;Strong Bow"
             "minecraft:bow;Powerful Bow"
+            "minecraft:bow;Arcane Bow"
+            "minecraft:bow;Mystic Bow"
         ]
         Properties: [
             bow_damage_mult
@@ -142,18 +79,113 @@ ItemGroups: [
         ]
     }
     {
-        WeaponClass: Mage
-        items: [
-            "minecraft:diamond_shovel;Archmage Wand"
-            "minecraft:iron_shovel;Mage Wand"
-            "minecraft:iron_shovel;Apprentice Wand"
-            "minecraft:stone_shovel;Basic Wand"
-            "minecraft:stone_shovel;Simple Wand"
+
+        WeaponClass: Blunt
+        Items: [
+            {
+                WeaponClass: Maces
+                Items: [
+                    "minecraft:diamond_pickaxe;Mithril Mace"
+                    "minecraft:iron_pickaxe;Steel Mace"
+                    "minecraft:iron_pickaxe;Iron Mace"
+                    "minecraft:stone_pickaxe;Bronze Mace"
+                    "minecraft:stone_pickaxe;Primative Mace"
+                ]
+                Properties: [
+                    maces_damage_mult
+                    maces_damage_bonus
+                    str_damage_bonus
+                ]
+            }
+            {
+                WeaponClass: Pickaxes
+                Items: [
+                    "minecraft:diamond_pickaxe"
+                    "minecraft:golden_pickaxe"
+                    "minecraft:iron_pickaxe"
+                    "minecraft:stone_pickaxe"
+                    "minecraft:wooden_pickaxe"
+                ]
+                Properties: [
+                    pickaxes_damage_mult
+                    pickaxes_damage_bonus
+                    str_damage_bonus
+                ]
+            }
+            {
+                WeaponClass: Wands
+                Items: [
+                    "minecraft:diamond_shovel;Archmage Wand"
+                    "minecraft:iron_shovel;Mage Wand"
+                    "minecraft:iron_shovel;Apprentice Wand"
+                    "minecraft:stone_shovel;Basic Wand"
+                    "minecraft:stone_shovel;Simple Wand"
+                ]
+                Properties: [
+                    wands_damage_mult
+                    wands_damage_bonus
+                    int_damage_bonus
+                ]
+            }
         ]
-        Properties: [
-            wands_damage_mult
-            wands_damage_bonus
-            int_damage_bonus
+
+        WeaponClass: Tools
+        Items: [
+            {
+                WeaponClass: Pickaxes
+                Items: [
+                    "minecraft:diamond_pickaxe;legendary Pickaxe"
+                    "minecraft:golden_pickaxe;Mastercraft Pickaxe"
+                    "minecraft:iron_pickaxe;Journeymans Pickaxe"
+                    "minecraft:Stone_pickaxe;Primative Pickaxe"
+                ]
+                Properties: [
+                    tools_damage_mult
+                    tools_damage_bonus
+                ]
+            }
+            {
+                WeaponClass: Axes
+                Items: [
+                    "minecraft:diamond_axe"
+                    "minecraft:golden_axe"
+                    "minecraft:iron_axe"
+                    "minecraft:stone_axe"
+                    "minecraft:wooden_axe"
+                ]
+                Properties: [
+                    tools_damage_mult
+                    tools_damage_bonus
+                ]
+            }
+            {
+                WeaponClass: Spades
+                Items: [
+                    "minecraft:diamond_shovel"
+                    "minecraft:golden_shovel"
+                    "minecraft:iron_shovel"
+                    "minecraft:stone_shovel"
+                    "minecraft:wooden_shovel"
+                ]
+                Properties: [
+                    tools_damage_mult
+                    tools_damage_bonus
+                ]
+            }
+            {
+              WeaponClass: hoe
+              Items: [
+                  "minecraft:diamond_hoe"
+                  "minecraft:golden_hoe"
+                  "minecraft:iron_hoe"
+                  "minecraft:stone_hoe"
+                  "minecraft:wooden_hoe"
+              ]
+              Properties: [
+                  tools_damage_mult
+                  tools_damage_bonus
+              ]
+            }
         ]
     }
 ]

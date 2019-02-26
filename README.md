@@ -3,7 +3,7 @@ Strix The Realm is a configuration for the NT-RPG plugin by NeumimTo. Suggestion
 
 **_Installation instructions_**
 
-For those who want to run Strix, help me find bugs or just want to use one mans idea of an RPG;
+For those who want to run Strix, help me find bugs, or just want to use one mans idea of an RPG;
 Simply download the source ZIP and drop into your Minecraft Server directory.
 
 **Special Thanks**

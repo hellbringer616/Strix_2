@@ -1,8 +1,8 @@
 //This script looks for item ID's defined in itemizer in the players inventory and returns a retrieve command to give the player an item from itemizer
-var ItemService = java.type(com.onaple.itemizer.ItemService); //Itemizer Itemservice API
-var SpongeInventoryAPI = java.type(org.spongepowered.item.inventory); //Need to find this class!!
-var SpongeCommandAPI = java.type(org.spongepowered.command.spec.CommandSpec); //Sponge Command API (I think..)
-var SpongeTextAPI = java.type(org.spongepowered.api.text.Text); //Sponge Text API (I think...)
+var ItemService = Java.type(com.onaple.itemizer.ItemService); //Itemizer Itemservice API
+var SpongeInventoryAPI = Java.type(org.spongepowered.item.inventory); //Need to find this class!!
+var SpongeCommandAPI = Java.type(org.spongepowered.command.spec.CommandSpec); //Sponge Command API (I think..)
+var SpongeTextAPI = Java.type(org.spongepowered.api.text.Text); //Sponge Text API (I think...)
 var Item1 = "CommandOutput"; //not yet finished
 var Quantity1 = "CommandOutput" //not yet finished
 var Item2 = "CommandOutput"; //not yet finished

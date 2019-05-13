@@ -1,7 +1,9 @@
-//a script i found on the discord, saving it for reference
-//When NPC is damaged
+//on NPC damaged
 function damaged(event) {
-    if (event.target.getName() == "Test" && event.player.getMainhandItem().getName().indexOf("pickaxe")==(-1)) { // if the attacker does not hold a pickaxe
-        event.damage=0 //set damage to 0
+   var damage = event.damage;
+   event.damage=0
+//if source is equal to "player" and they have an item in their main hand, and if it's not a pickaxe; set damage to 0
+    if (event.source.getType() == EntityType_PLAYER && event.source.getMainhandItem() && event.source.getMainhandItem().getName().indexOf("pickaxe") != -1) {
+        event.damage = damage;
     }
 }

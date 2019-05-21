@@ -1,16 +1,18 @@
 //On interact with NPC
 function interact(event) {
-  if(event.source && event.source.getType() == EntityType_PLAYER && event.source.isSneaking()){
-    var rng = Math.random();
-    var itemService = Java.type("com.onaple.itemizer.ItemService");
-    var playerName = event.source.getName();
-    var itemPool = ItemService.fetch(1);
+  var sneak = event.player.isSneaking(); //is the player sneaking
 
+  if(sneak){ //checks if the player is sneaking
+    var rng = Math.random(); //generates a random number between 0 and 1
+    var playerName = event.player.getName(); //gets the interacting players name
     if(rng >= 0.6){
-      event.npc.executeCommand("fetch " itemPool + " 3 " playerName + "");
-      event.npc.executeCommand("nadmin exp add " + playerName + " theiving " + maxHealth + "");
+      event.npc.executeCommand("retrieve 9999 3 " + playerName + "") //retrieve itemizer item of quantity and give to player
     }else{
-      event.npc.executeCommand("tell " + playerName + "What are you doin in there?!"")
+      event.npc.say("Beg your pardon?!");
+      event.player.damage(2);
+      event.player.addPotionEffect(2, 3, 6, false); //adds slowness of 3 seconds of level 6 (immobile) to player
     }
+  }else{
+    event.npc.say("Hello Adventurer");
   }
 }

@@ -7,6 +7,7 @@ function interact(event) {
     var playerName = event.player.getName(); //gets the interacting players name
     if(rng >= 0.6){
       event.npc.executeCommand("retrieve 9999 3 " + playerName + "") //retrieve itemizer item of quantity and give to player
+      event.npc.executeCommand("ndadmin exp add " + playerName + "thieving 8")
     }else{
       event.npc.say("Beg your pardon?!");
       event.player.damage(2);

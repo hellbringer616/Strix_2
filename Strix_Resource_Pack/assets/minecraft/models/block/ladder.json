@@ -1,10 +1,10 @@
 {
 	"__comment": "Designed by Sirfancybacon with Cubik Studio - https://cubik.studio",
 	"textures": {
-		"particle": "ladder",
-		"texture": "ladder"
+		"particle": "blocks/ladder",
+		"texture": "blocks/ladder"
 	},
-	"elements": [ 	 
+	"elements": [
 		{
 			"__comment": "Box2",
 			"from": [ 1, 0, 15 ],

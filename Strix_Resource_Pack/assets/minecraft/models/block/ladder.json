@@ -1,11 +1,11 @@
 {
 	"__comment": "Designed by Sirfancybacon with Cubik Studio - https://cubik.studio",
-	"ambientocclusion": false,
+	"ambientocclusion": true,
 	"textures": {
 		"particle": "blocks\ladder",
 		"texture": "blocks\ladder"
 	},
-	"elements": [ 	 
+	"elements": [
 		{
 			"__comment": "Box2",
 			"from": [ 1, 0, 14 ],

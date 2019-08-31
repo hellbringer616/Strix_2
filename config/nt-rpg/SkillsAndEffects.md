@@ -1,99 +1,39 @@
 ## Skills
 ----
 
-###### GrapplingHook
+###### Slow
 
-*ID:* ntrpg:grapplinghook
+*ID:* ntrpg:slow
 
-*Description:*
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * range
-
-   * range_levelbonus
-
-
-
----###### Soulbind
-
-*ID:* ntrpg:soulbind
-
-*Description:*
+*Description:* 
 
 *DamageType:* Deals no damage
 
 *Parameters:*
 
    * duration
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * amplifier_levelbonus
 
    * cooldown
 
    * range
 
-   * duration_levelbonus
-
-   * range_levelbonus
-
-   * cooldown_levelbonus
-
-
-
----###### Slow
-
-*ID:* ntrpg:slow
-
-*Description:* Slows targeted entity
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * duration
-
-   * amplifier_levelbonus
-
    * amplifier
 
-   * duration_levelbonus
-
-
-
----###### Conductivity
-
-*ID:* ntrpg:conductivity
-
-*Description:* Curse, Increases lightning damage to affected entities
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * duration
-
-   * range
-
-   * radius
-
-   * radius_levelbonus
-
-   * duration_levelbonus
-
    * range_levelbonus
 
+   * duration_levelbonus
 
-
----###### Potion
-
-*ID:* ntrpg:potion
-
-*Description:*
-
-*DamageType:* Deals no damage
-
-*Parameters:*
+   * cooldown_levelbonus
 
 
 
@@ -101,7 +41,7 @@
 
 *ID:* ntrpg:battlecharge
 
-*Description:*
+*Description:* 
 
 *DamageType:* Deals no damage
 
@@ -109,7 +49,17 @@
 
    * duration
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
    * speed-per-level
+
+   * cooldown
 
    * radius
 
@@ -119,85 +69,7 @@
 
    * speed-per-level_levelbonus
 
-
-
----###### Harmtouch
-
-*ID:* ntrpg:harmtouch
-
-*Description:* Deals magical damage to the targeted entity
-
-*DamageType:* magic
-
-*Parameters:*
-
-   * damage
-
-   * damage_levelbonus
-
-
-
----###### Wrestle
-
-*ID:* ntrpg:wrestle
-
-*Description:* Stuns all enemies around the caster
-
-*DamageType:* attack
-
-*Parameters:*
-
-   * duration
-
-   * damage
-
-   * damage_levelbonus
-
-   * radius
-
-   * radius_levelbonus
-
-   * duration_levelbonus
-
-
-
----###### Empathy
-
-*ID:* ntrpg:empathy
-
-*Description:*
-
-*DamageType:* magic
-
-*Parameters:*
-
-   * max-damage_levelbonus
-
-   * multiplier
-
-   * multiplier_levelbonus
-
-   * max-damage
-
-
-
----###### Stun
-
-*ID:* ntrpg:stun
-
-*Description:* Stuns targeted entity
-
-*DamageType:* attack
-
-*Parameters:*
-
-   * duration
-
-   * damage
-
-   * damage_levelbonus
-
-   * duration_levelbonus
+   * cooldown_levelbonus
 
 
 
@@ -205,7 +77,7 @@
 
 *ID:* ntrpg:arrowstorm
 
-*Description:* Rapidly fires multiple arrows.
+*Description:* 
 
 *DamageType:* projectile
 
@@ -215,17 +87,29 @@
 
    * period
 
-   * min-arrows_levelbonus
+   * manacost
 
    * period_levelbonus
 
-   * min-arrows
+   * hpcost
 
    * max-arrows
 
    * damage_levelbonus
 
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * min-arrows_levelbonus
+
+   * min-arrows
+
+   * cooldown
+
    * max-arrows_levelbonus
+
+   * cooldown_levelbonus
 
 
 
@@ -233,7 +117,7 @@
 
 *ID:* ntrpg:burningprescense
 
-*Description:*
+*Description:* 
 
 *DamageType:* fire
 
@@ -243,7 +127,17 @@
 
    * period
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
    * period_levelbonus
+
+   * hpcost
+
+   * cooldown
 
    * damage_levelbonus
 
@@ -251,13 +145,15 @@
 
    * radius_levelbonus
 
+   * cooldown_levelbonus
+
 
 
 ---###### Dampen
 
 *ID:* ntrpg:dampen
 
-*Description:* Becomes invulnerable if attacking player is below mana treshold
+*Description:* 
 
 *DamageType:* Deals no damage
 
@@ -266,30 +162,6 @@
    * min-mana
 
    * min-mana_levelbonus
-
-
-
----###### DropTNT
-
-*ID:* ntrpg:droptnt
-
-*Description:* Drops primed TNT at caster's feet
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * amount_levelbonus
-
-   * damage
-
-   * explosion-radius
-
-   * explosion-radius_levelbonus
-
-   * amount
-
-   * damage_levelbonus
 
 
 
@@ -307,7 +179,17 @@
 
    * mana_levelbonus
 
+   * manacost
+
    * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
 
    * range
 
@@ -315,45 +197,7 @@
 
    * range_levelbonus
 
-
-
----###### Jump
-
-*ID:* ntrpg:jump
-
-*Description:* Jumps into air with incremented velocity
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * velocity
-
-   * velocity_levelbonus
-
-
-
----###### arrowmulti
-
-*ID:* strix:arrowmulti
-
-*Description:*
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-
-
----###### Astronomy
-
-*ID:* ntrpg:astronomy
-
-*Description:* Ability to craft teleportation scroll, Consumes paper on use.
-
-*DamageType:* Deals no damage
-
-*Parameters:*
+   * cooldown_levelbonus
 
 
 
@@ -361,7 +205,7 @@
 
 *ID:* ntrpg:resolutetechnique
 
-*Description:*
+*Description:* 
 
 *DamageType:* attack
 
@@ -373,7 +217,7 @@
 
 *ID:* ntrpg:lightning
 
-*Description:* Strucks entity with a lightning bolt
+*Description:* 
 
 *DamageType:* lightning
 
@@ -381,11 +225,679 @@
 
    * damage
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
    * range
 
    * damage_levelbonus
 
    * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Dementia
+
+*ID:* ntrpg:dementia
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * duration
+
+   * skill-level_levelbonus
+
+   * manacost
+
+   * skill-level
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * range_levelbonus
+
+   * duration_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Fireball
+
+*ID:* ntrpg:fireball
+
+*Description:* 
+
+*DamageType:* fire
+
+*Parameters:*
+
+   * damage
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * damage_levelbonus
+
+   * velocity
+
+   * velocity_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Bandage
+
+*ID:* ntrpg:bandage
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * manacost
+
+   * healed_amount
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+   * healed_amount_levelbonus
+
+
+
+---###### steelpick
+
+*ID:* strix:steelpick
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### Portal
+
+*ID:* ntrpg:portal
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * chance-to-fail
+
+   * manacost
+
+   * hpcost
+
+   * portal-duration
+
+   * portal-duration_levelbonus
+
+   * manacost-per-teleported-entity_levelbonus
+
+   * chance-to-fail_levelbonus
+
+   * manacost-per-tick_levelbonus
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * cooldown
+
+   * manacost-per-teleported-entity
+
+   * cooldown_levelbonus
+
+   * manacost-per-tick
+
+
+
+---###### steelweapons
+
+*ID:* strix:steelweapons
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### mithrilweapons
+
+*ID:* strix:mithrilweapons
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### Teleport
+
+*ID:* ntrpg:teleport
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### GroupHeal
+
+*ID:* ntrpg:groupheal
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * manacost
+
+   * healed_amount
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * radius
+
+   * radius_levelbonus
+
+   * cooldown_levelbonus
+
+   * healed_amount_levelbonus
+
+
+
+---###### ManaShield
+
+*ID:* ntrpg:manashield
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * duration
+
+   * reduction-manacost_levelbonus
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * reduction-manacost
+
+   * reduction
+
+   * duration_levelbonus
+
+   * cooldown_levelbonus
+
+   * reduction_levelbonus
+
+
+
+---###### GrapplingHook
+
+*ID:* ntrpg:grapplinghook
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Soulbind
+
+*ID:* ntrpg:soulbind
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * duration
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * duration_levelbonus
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Conductivity
+
+*ID:* ntrpg:conductivity
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * duration
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * radius
+
+   * radius_levelbonus
+
+   * duration_levelbonus
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Potion
+
+*ID:* ntrpg:potion
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * cooldown-reduced_levelbonus
+
+   * cooldown-reduced
+
+
+
+---###### Harmtouch
+
+*ID:* ntrpg:harmtouch
+
+*Description:* 
+
+*DamageType:* magic
+
+*Parameters:*
+
+   * damage
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * damage_levelbonus
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Wrestle
+
+*ID:* ntrpg:wrestle
+
+*Description:* 
+
+*DamageType:* attack
+
+*Parameters:*
+
+   * duration
+
+   * damage
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * damage_levelbonus
+
+   * radius
+
+   * radius_levelbonus
+
+   * duration_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Empathy
+
+*ID:* ntrpg:empathy
+
+*Description:* 
+
+*DamageType:* magic
+
+*Parameters:*
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * max-damage_levelbonus
+
+   * multiplier
+
+   * cooldown
+
+   * range
+
+   * range_levelbonus
+
+   * multiplier_levelbonus
+
+   * cooldown_levelbonus
+
+   * max-damage
+
+
+
+---###### Fissure
+
+*ID:* ntrpg:fissure
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * duration
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * duration_levelbonus
+
+   * range_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Stun
+
+*ID:* ntrpg:stun
+
+*Description:* 
+
+*DamageType:* attack
+
+*Parameters:*
+
+   * duration
+
+   * damage
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * damage_levelbonus
+
+   * range_levelbonus
+
+   * duration_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### DropTNT
+
+*ID:* ntrpg:droptnt
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * amount_levelbonus
+
+   * damage
+
+   * explosion-radius
+
+   * explosion-radius_levelbonus
+
+   * amount
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * damage_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Jump
+
+*ID:* ntrpg:jump
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * velocity
+
+   * velocity_levelbonus
+
+   * cooldown_levelbonus
+
+
+
+---###### Astronomy
+
+*ID:* ntrpg:astronomy
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### mithrilpick
+
+*ID:* strix:mithrilpick
+
+*Description:* 
+
+*DamageType:* Deals no damage
+
+*Parameters:*
 
 
 
@@ -393,7 +905,7 @@
 
 *ID:* ntrpg:dodge
 
-*Description:*
+*Description:* 
 
 *DamageType:* Deals no damage
 
@@ -409,7 +921,7 @@
 
 *ID:* ntrpg:speed
 
-*Description:* Temporarily boosts caster's walk speed
+*Description:* 
 
 *DamageType:* Deals no damage
 
@@ -421,7 +933,19 @@
 
    * amount
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
    * duration_levelbonus
+
+   * cooldown_levelbonus
 
 
 
@@ -429,7 +953,7 @@
 
 *ID:* ntrpg:basher
 
-*Description:*
+*Description:* 
 
 *DamageType:* attack
 
@@ -453,11 +977,39 @@
 
 
 
+---###### SmeltBronzeBar
+
+*ID:* craft:smeltbronze
+
+*Description:* Test
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
 ---###### Megabolt
 
 *ID:* ntrpg:megabolt
 
-*Description:* Strucks all nearby entities with a lightning bolt
+*Description:* 
 
 *DamageType:* lightning
 
@@ -465,31 +1017,23 @@
 
    * damage
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
    * damage_levelbonus
 
    * radius
 
    * radius_levelbonus
 
-
-
----###### Dementia
-
-*ID:* ntrpg:dementia
-
-*Description:* Places a debuff on targetted player, which decreases all skill levels
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * duration
-
-   * skill-level_levelbonus
-
-   * skill-level
-
-   * duration_levelbonus
+   * cooldown_levelbonus
 
 
 
@@ -497,7 +1041,7 @@
 
 *ID:* ntrpg:web
 
-*Description:* Summons Web blocks under targeted entity
+*Description:* 
 
 *DamageType:* Deals no damage
 
@@ -505,7 +1049,23 @@
 
    * duration
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * range
+
+   * range_levelbonus
+
    * duration_levelbonus
+
+   * cooldown_levelbonus
 
 
 
@@ -513,7 +1073,7 @@
 
 *ID:* ntrpg:multibolt
 
-*Description:* Strucks an entity with a lightning bolt multiple times
+*Description:* 
 
 *DamageType:* lightning
 
@@ -521,47 +1081,27 @@
 
    * damage
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
    * times-hit
+
+   * hpcost
+
+   * cooldown
 
    * times-hit_levelbonus
 
-   * damage_levelbonus
-
-
-
----###### Fireball
-
-*ID:* ntrpg:fireball
-
-*Description:* Summons a fireball
-
-*DamageType:* fire
-
-*Parameters:*
-
-   * damage
+   * range
 
    * damage_levelbonus
 
-   * velocity
+   * range_levelbonus
 
-   * velocity_levelbonus
-
-
-
----###### Heal, also stops bleeding
-
-*ID:* ntrpg:bandage
-
-*Description:*
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * healed_amount
-
-   * healed_amount_levelbonus
+   * cooldown_levelbonus
 
 
 
@@ -569,27 +1109,67 @@
 
 *ID:* ntrpg:icebolt
 
-*Description:* Fires a icebolt which deals damage and slows entity it hits
+*Description:* 
 
 *DamageType:* ice
 
 *Parameters:*
 
-   * duration
-
    * damage
 
-   * amplifier_levelbonus
+   * manacost
+
+   * hpcost
 
    * damage_levelbonus
 
-   * amplifier
-
    * velocity
+
+   * duration_levelbonus
+
+   * duration
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * amplifier_levelbonus
+
+   * cooldown
+
+   * amplifier
 
    * velocity_levelbonus
 
-   * duration_levelbonus
+   * cooldown_levelbonus
+
+
+
+---###### CraftBonzeDagger
+
+*ID:* craft:bronzedagger
+
+*Description:* Test
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
 
 
 
@@ -597,27 +1177,39 @@
 
 *ID:* ntrpg:pandemic
 
-*Description:* AOE debuff, which damages nearby enemies while healing the caster
+*Description:* 
 
 *DamageType:* magic
 
 *Parameters:*
 
-   * duration
-
    * damage
 
    * period
 
+   * manacost
+
    * period_levelbonus
 
-   * damage_levelbonus
+   * hpcost
 
-   * radius
+   * damage_levelbonus
 
    * radius_levelbonus
 
    * duration_levelbonus
+
+   * duration
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * cooldown
+
+   * radius
+
+   * cooldown_levelbonus
 
 
 
@@ -625,7 +1217,7 @@
 
 *ID:* ntrpg:critical
 
-*Description:* Chance to deal a critical strike
+*Description:* 
 
 *DamageType:* meelecritical
 
@@ -641,59 +1233,11 @@
 
 
 
----###### Portal
-
-*ID:* ntrpg:portal
-
-*Description:* Opens a portal. The portal may be targeted by a teleportation scroll.
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * chance-to-fail
-
-   * manacost-per-tick_levelbonus
-
-   * manacost
-
-   * manacost_levelbonus
-
-   * portal-duration
-
-   * portal-duration_levelbonus
-
-   * cooldown
-
-   * manacost-per-teleported-entity_levelbonus
-
-   * manacost-per-teleported-entity
-
-   * chance-to-fail_levelbonus
-
-   * cooldown_levelbonus
-
-   * manacost-per-tick
-
-
-
----###### swordmulti
-
-*ID:* strix:swordmulti
-
-*Description:* Increase Sword damage by percentage.
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-
-
 ---###### Invisibility
 
 *ID:* ntrpg:invisibility
 
-*Description:*
+*Description:* 
 
 *DamageType:* Deals no damage
 
@@ -701,67 +1245,19 @@
 
    * duration
 
-   * duration_levelbonus
+   * manacost
 
+   * hpcost_levelbonus
 
+   * manacost_levelbonus
 
----###### Teleport
+   * hpcost
 
-*ID:* ntrpg:teleport
-
-*Description:* Teleports caster to targeted location
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * range
-
-   * range_levelbonus
-
-
-
----###### GroupHeal
-
-*ID:* ntrpg:groupheal
-
-*Description:* AOE heal for caster and its nearby allies
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * healed_amount
-
-   * radius
-
-   * radius_levelbonus
-
-   * healed_amount_levelbonus
-
-
-
----###### ManaShield
-
-*ID:* ntrpg:manashield
-
-*Description:* Incoming damage will drain manapool, instead of life.  
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * duration
-
-   * reduction-manacost_levelbonus
-
-   * reduction-manacost
-
-   * reduction
+   * cooldown
 
    * duration_levelbonus
 
-   * reduction_levelbonus
+   * cooldown_levelbonus
 
 
 
@@ -775,25 +1271,37 @@
 
 *Parameters:*
 
-   * duration
-
    * mana_levelbonus
 
-   * mana
+   * manacost
 
    * mana-per-tick_levelbonus
 
-   * health-per-tick
+   * hpcost
 
    * health-per-tick_levelbonus
 
+   * duration_levelbonus
+
+   * duration
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * health-per-tick
+
    * mana-per-tick
+
+   * cooldown
 
    * tick-rate
 
    * tick-rate_levelbonus
 
-   * duration_levelbonus
+   * cooldown_levelbonus
 
 
 
@@ -801,7 +1309,7 @@
 
 *ID:* ntrpg:despair
 
-*Description:*
+*Description:* 
 
 *DamageType:* magic
 
@@ -811,6 +1319,16 @@
 
    * damage
 
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
    * damage_levelbonus
 
    * radius
@@ -819,25 +1337,27 @@
 
    * duration_levelbonus
 
+   * cooldown_levelbonus
+
 
 
 ---###### ShadowRun
 
 *ID:* ntrpg:shadowrun
 
-*Description:* Grants caster invisibility and increments walking speed. First meele attack caster do removes the buff but deals increased damage. May be casted only while in specific light level.
+*Description:* 
 
 *DamageType:* Deals no damage
 
 *Parameters:*
 
-   * duration
-
    * damage
 
-   * max-light-level
+   * manacost
 
    * max-light-level_levelbonus
+
+   * hpcost
 
    * multiplier
 
@@ -847,9 +1367,21 @@
 
    * duration_levelbonus
 
+   * duration
+
+   * max-light-level
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * cooldown
+
    * multiplier_levelbonus
 
    * walk-speed
+
+   * cooldown_levelbonus
 
 
 
@@ -857,7 +1389,7 @@
 
 *ID:* ntrpg:drain
 
-*Description:* Meele attacks will drain mana from attacked entity
+*Description:* 
 
 *DamageType:* attack
 
@@ -873,13 +1405,21 @@
 
 *ID:* ntrpg:brainsap
 
-*Description:*
+*Description:* 
 
 *DamageType:* magic
 
 *Parameters:*
 
    * damage
+
+   * manacost
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
 
    * cooldown
 
@@ -897,23 +1437,15 @@
 
 *ID:* ntrpg:enderpearl
 
-*Description:* Allows the player to teleport via Enter Pearl
+*Description:* 
 
 *DamageType:* Deals no damage
 
 *Parameters:*
 
+   * cooldown
 
-
----###### cleavingmulti
-
-*ID:* strix:cleavingmulti
-
-*Description:*
-
-*DamageType:* Deals no damage
-
-*Parameters:*
+   * cooldown_levelbonus
 
 
 
@@ -977,15 +1509,21 @@
 
 *Parameters:* Void
 
-###### water breathing
-
-*Description:* An effect which gives water_breathing potion effect to the target
-
-*Parameters:* Void
-
 ###### defaultmanaregen
 
 *Description:* A component which enables mana regeneration
+
+*Parameters:* Void
+
+###### fissure
+
+*Description:* Builds a tempoar wall of dirt
+
+*Parameters:* int
+
+###### waterbreathing
+
+*Description:* An effect which gives water_breathing potion effect to the target
 
 *Parameters:* Void
 
@@ -1138,3 +1676,5 @@
 *Description:* Periodically heals the target and recharges mana
 
 *Parameters:* Void
+
+

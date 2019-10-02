@@ -1,8 +1,23 @@
+###### Changes default value of a property. Must be called during pre initialization (within scripts folder) in order to have any affect. 
+
+
+```javascript
+set_property_default_value("my_property_mult", 0);
+```
+
+
+- Parameters:
+
+    * string - property name
+    * float - default value
+
+
+
 ###### Returns a list of nearby allies
 
 
 ```javascript
-var list = nearby_allies(entity, radius)
+for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
 ```
 
 
@@ -10,22 +25,7 @@ var list = nearby_allies(entity, radius)
 
     * entity - allies for the entity
     * radius
-
-
-
-###### Returns current enemy entity in crosshair
-
-
-```javascript
-var target = targeted_enemy(entity, range)
-```
-
-
-- Parameters:
-
-    * entity - An entity which we search for its enemies
-    * range - Maximal search range
-    * @returns - An entity instance or null
+    * allyEntity - callback
 
 
 
@@ -33,15 +33,34 @@ var target = targeted_enemy(entity, range)
 
 
 ```javascript
-damage(caster, target, damage, context)
+damage(source, target, damage, context)
 ```
 
 
 - Parameters:
 
-    * caster - Entity of damage origin
+    * source - Entity of damage origin
     * target - Entity to be damaged
     * damage - damage value
+    * context - skill context
+    * @returns - true if the damage was dealt
+
+
+
+###### Damaging an Entity with specific damage type
+
+
+```javascript
+damage(source, target, damage, type, context)
+```
+
+
+- Parameters:
+
+    * source - Entity of damage origin
+    * target - Entity to be damaged
+    * damage - damage value
+    * type - damage type
     * context - skill context
     * @returns - true if the damage was dealt
 
@@ -68,15 +87,15 @@ param(node, context)
 
 
 ```javascript
-apply_effect(effect, target, context)
+apply_effect(effect, context, source)
 ```
 
 
 - Parameters:
 
     * effect - The effect to be applied
-    * target - Entity to consume the effect
     * context - skill context
+    * source - source/caster entity (may be null)
 
 
 
@@ -198,18 +217,44 @@ var builder = potion_effect_builder("potioneffectid")
 
 
 
-###### Changes default value of a property. Must be called during pre initialization (within scripts folder) in order to have any affect. 
+###### Converts a string to Text object.
 
 
 ```javascript
-set_property_default_value("my_property_mult", 0);
+var text = to_text("&aColored Text")
 ```
 
 
 - Parameters:
 
-    * string - property name
-    * float - default value
+
+
+
+###### Converts a string to multiline (list) of Text objects.
+
+
+```javascript
+var textList = to_multiline_text("&aFirst Line:nSecondLine")
+```
+
+
+- Parameters:
+
+
+
+
+###### Puts a task into a scheduled execution
+
+
+```javascript
+delay(function() { ... }, delay)
+```
+
+
+- Parameters:
+
+    * function - code to run later
+    * delay - time in milliseconds
 
 
 
@@ -229,26 +274,11 @@ for_each_nearby_enemy(entity, radius, new Consumer() { apply: function(entity} {
 
 
 
-###### Puts a task into a scheduled execution
-
-
-```javascript
-delay(function() { ... }, delay)
-```
-
-
-- Parameters:
-
-    * function - code to run later
-    * delay - time in milliseconds
-
-
-
 ###### Returns a list of nearby allies
 
 
 ```javascript
-for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ... } )
+var list = nearby_allies(entity, radius)
 ```
 
 
@@ -256,7 +286,22 @@ for_each_nearby_ally(entity, radius, new Consumer() { apply: function(ally} { ..
 
     * entity - allies for the entity
     * radius
-    * allyEntity - callback
+
+
+
+###### Returns current enemy entity in crosshair
+
+
+```javascript
+var target = targeted_enemy(entity, range)
+```
+
+
+- Parameters:
+
+    * entity - An entity which we search for its enemies
+    * range - Maximal search range
+    * @returns - An entity instance or null
 
 
 

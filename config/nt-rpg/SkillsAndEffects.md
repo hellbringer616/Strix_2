@@ -1,11 +1,39 @@
 ## Skills
 ----
 
-###### Slow
+###### ForgeBronzePlate
+
+*ID:* craft:bronzeplate
+
+*Description:* Forge Bronze Plate
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.slow.name
 
 *ID:* ntrpg:slow
 
-*Description:* 
+*Description:* ntrpg.skills.slow.desc
 
 *DamageType:* Deals no damage
 
@@ -37,11 +65,11 @@
 
 
 
----###### BattleCharge
+---###### ntrpg.skills.battlecharge.name
 
 *ID:* ntrpg:battlecharge
 
-*Description:* 
+*Description:* ntrpg.skills.battlecharge.desc
 
 *DamageType:* Deals no damage
 
@@ -73,13 +101,25 @@
 
 
 
----###### Arrowstorm
+---###### intellegence
+
+*ID:* strix:intellegence
+
+*Description:* strix.skills.intellegence.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### ntrpg.skills.arrowstorm.name
 
 *ID:* ntrpg:arrowstorm
 
-*Description:* 
+*Description:* ntrpg.skills.arrowstorm.desc
 
-*DamageType:* projectile
+*DamageType:* minecraft:projectile
 
 *Parameters:*
 
@@ -113,13 +153,13 @@
 
 
 
----###### BurningPrescense
+---###### ntrpg.skills.burningprescense.name
 
 *ID:* ntrpg:burningprescense
 
-*Description:* 
+*Description:* ntrpg.skills.burningprescense.desc
 
-*DamageType:* fire
+*DamageType:* ntrpg:fire
 
 *Parameters:*
 
@@ -149,11 +189,11 @@
 
 
 
----###### Dampen
+---###### ntrpg.skills.dampen.name
 
 *ID:* ntrpg:dampen
 
-*Description:* 
+*Description:* ntrpg.skills.dampen.desc
 
 *DamageType:* Deals no damage
 
@@ -162,6 +202,34 @@
    * min-mana
 
    * min-mana_levelbonus
+
+
+
+---###### ForgeIronLongsword
+
+*ID:* craft:ironlongsword
+
+*Description:* Forge Iron Longsword
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
 
 
 
@@ -201,25 +269,121 @@
 
 
 
----###### ResoluteTechnique
+---###### ForgeSteelMace
 
-*ID:* ntrpg:resolutetechnique
+*ID:* craft:steelmace
 
-*Description:* 
+*Description:* Forge Steel Mace
 
-*DamageType:* attack
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### SmeltIronBar
+
+*ID:* craft:ironbar
+
+*Description:* Smelt Iron Bars
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeBronzePick
+
+*ID:* craft:bronzepick
+
+*Description:* Forge Bronze Pick
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ironarmor
+
+*ID:* strix:ironarmor
+
+*Description:* strix.skills.ironarmor.desc
+
+*DamageType:* Deals no damage
 
 *Parameters:*
 
 
 
----###### Lightning
+---###### ntrpg.skills.resolutetechnique.name
+
+*ID:* ntrpg:resolutetechnique
+
+*Description:* ntrpg.skills.resolutetechnique.desc
+
+*DamageType:* minecraft:attack
+
+*Parameters:*
+
+
+
+---###### ntrpg.skills.lightning.name
 
 *ID:* ntrpg:lightning
 
-*Description:* 
+*Description:* ntrpg.skills.lightning.desc
 
-*DamageType:* lightning
+*DamageType:* ntrpg:lightning
 
 *Parameters:*
 
@@ -245,11 +409,67 @@
 
 
 
----###### Dementia
+---###### ForgeIronAxe
+
+*ID:* craft:ironhatchet
+
+*Description:* Forge Iron Axe
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeBronzeLegs
+
+*ID:* craft:bronzelegs
+
+*Description:* Forge Bronze Legs
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.dementia.name
 
 *ID:* ntrpg:dementia
 
-*Description:* 
+*Description:* ntrpg.skills.dementia.desc
 
 *DamageType:* Deals no damage
 
@@ -281,13 +501,13 @@
 
 
 
----###### Fireball
+---###### ntrpg.skills.fireball.name
 
 *ID:* ntrpg:fireball
 
-*Description:* 
+*Description:* ntrpg.skills.fireball.desc
 
-*DamageType:* fire
+*DamageType:* ntrpg:fire
 
 *Parameters:*
 
@@ -313,11 +533,11 @@
 
 
 
----###### Bandage
+---###### ntrpg.skills.bandage.name
 
 *ID:* ntrpg:bandage
 
-*Description:* 
+*Description:* ntrpg.skills.bandage.desc
 
 *DamageType:* Deals no damage
 
@@ -345,11 +565,39 @@
 
 
 
+---###### ForgeBronzeHatchet
+
+*ID:* craft:bronzehatchet
+
+*Description:* Forge Bronze Axe
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
 ---###### steelpick
 
 *ID:* strix:steelpick
 
-*Description:* 
+*Description:* strix.skills.steelpick.desc
 
 *DamageType:* Deals no damage
 
@@ -357,11 +605,39 @@
 
 
 
----###### Portal
+---###### ForgeSteelHatchet
+
+*ID:* craft:steelhatchet
+
+*Description:* Forge Steel Axe
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.portal.name
 
 *ID:* ntrpg:portal
 
-*Description:* 
+*Description:* ntrpg.skills.portal.desc
 
 *DamageType:* Deals no damage
 
@@ -397,11 +673,23 @@
 
 
 
+---###### ironweapons
+
+*ID:* strix:ironweapons
+
+*Description:* strix.skills.ironweapons.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
 ---###### steelweapons
 
 *ID:* strix:steelweapons
 
-*Description:* 
+*Description:* strix.skills.steelweapons.desc
 
 *DamageType:* Deals no damage
 
@@ -413,7 +701,7 @@
 
 *ID:* strix:mithrilweapons
 
-*Description:* 
+*Description:* strix.skills.mithrilweapons.desc
 
 *DamageType:* Deals no damage
 
@@ -421,11 +709,39 @@
 
 
 
----###### Teleport
+---###### ForgeBronzeSabatons
+
+*ID:* craft:bronzesabatons
+
+*Description:* Forge Bronze Sabatons
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.teleport.name
 
 *ID:* ntrpg:teleport
 
-*Description:* 
+*Description:* ntrpg.skills.teleport.desc
 
 *DamageType:* Deals no damage
 
@@ -449,11 +765,39 @@
 
 
 
----###### GroupHeal
+---###### ForgeBronzeHelm
+
+*ID:* craft:bronzehelm
+
+*Description:* Forge Bronze Helm
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.groupheal.name
 
 *ID:* ntrpg:groupheal
 
-*Description:* 
+*Description:* ntrpg.skills.groupheal.desc
 
 *DamageType:* Deals no damage
 
@@ -481,11 +825,11 @@
 
 
 
----###### ManaShield
+---###### ntrpg.skills.manashield.name
 
 *ID:* ntrpg:manashield
 
-*Description:* 
+*Description:* ntrpg.skills.manashield.desc
 
 *DamageType:* Deals no damage
 
@@ -517,11 +861,79 @@
 
 
 
----###### GrapplingHook
+---###### ForgeIronMace
+
+*ID:* craft:ironmace
+
+*Description:* Forge Iron Mace
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeSteelPlate
+
+*ID:* craft:steelplate
+
+*Description:* Forge Steel Plate
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### dexterity
+
+*ID:* strix:dexterity
+
+*Description:* strix.skills.dexterity.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### ntrpg.skills.grapplinghook.name
 
 *ID:* ntrpg:grapplinghook
 
-*Description:* 
+*Description:* ntrpg.skills.grapplinghook.desc
 
 *DamageType:* Deals no damage
 
@@ -545,11 +957,11 @@
 
 
 
----###### Soulbind
+---###### ntrpg.skills.soulbind.name
 
 *ID:* ntrpg:soulbind
 
-*Description:* 
+*Description:* ntrpg.skills.soulbind.desc
 
 *DamageType:* Deals no damage
 
@@ -577,11 +989,11 @@
 
 
 
----###### Conductivity
+---###### ntrpg.skills.conductivity.name
 
 *ID:* ntrpg:conductivity
 
-*Description:* 
+*Description:* ntrpg.skills.conductivity.desc
 
 *DamageType:* Deals no damage
 
@@ -613,11 +1025,11 @@
 
 
 
----###### Potion
+---###### ntrpg.skills.potion.name
 
 *ID:* ntrpg:potion
 
-*Description:* 
+*Description:* ntrpg.skills.potion.desc
 
 *DamageType:* Deals no damage
 
@@ -629,13 +1041,53 @@
 
 
 
----###### Harmtouch
+---###### ForgeBronzeLongsword
+
+*ID:* craft:bronzelongsword
+
+*Description:* Forge Bronze Longsword
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### strength
+
+*ID:* strix:strength
+
+*Description:* strix.skills.strength.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### ntrpg.skills.harmtouch.name
 
 *ID:* ntrpg:harmtouch
 
-*Description:* 
+*Description:* ntrpg.skills.harmtouch.desc
 
-*DamageType:* magic
+*DamageType:* minecraft:magic
 
 *Parameters:*
 
@@ -661,13 +1113,41 @@
 
 
 
----###### Wrestle
+---###### ForgeSteelHelm
+
+*ID:* craft:steelhelm
+
+*Description:* Forge Steel Helm
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.wrestle.name
 
 *ID:* ntrpg:wrestle
 
-*Description:* 
+*Description:* ntrpg.skills.wrestle.desc
 
-*DamageType:* attack
+*DamageType:* minecraft:attack
 
 *Parameters:*
 
@@ -697,13 +1177,13 @@
 
 
 
----###### Empathy
+---###### ntrpg.skills.empathy.name
 
 *ID:* ntrpg:empathy
 
-*Description:* 
+*Description:* ntrpg.skills.empathy.desc
 
-*DamageType:* magic
+*DamageType:* minecraft:magic
 
 *Parameters:*
 
@@ -733,11 +1213,11 @@
 
 
 
----###### Fissure
+---###### ntrpg.skills.fissure.name
 
 *ID:* ntrpg:fissure
 
-*Description:* 
+*Description:* ntrpg.skills.fissure.desc
 
 *DamageType:* Deals no damage
 
@@ -765,13 +1245,13 @@
 
 
 
----###### Stun
+---###### ntrpg.skills.stun.name
 
 *ID:* ntrpg:stun
 
-*Description:* 
+*Description:* ntrpg.skills.stun.desc
 
-*DamageType:* attack
+*DamageType:* minecraft:attack
 
 *Parameters:*
 
@@ -801,11 +1281,11 @@
 
 
 
----###### DropTNT
+---###### ntrpg.skills.droptnt.name
 
 *ID:* ntrpg:droptnt
 
-*Description:* 
+*Description:* ntrpg.skills.droptnt.desc
 
 *DamageType:* Deals no damage
 
@@ -837,11 +1317,11 @@
 
 
 
----###### Jump
+---###### ntrpg.skills.jump.name
 
 *ID:* ntrpg:jump
 
-*Description:* 
+*Description:* ntrpg.skills.jump.desc
 
 *DamageType:* Deals no damage
 
@@ -865,11 +1345,11 @@
 
 
 
----###### Astronomy
+---###### ntrpg.skills.astronomy.name
 
 *ID:* ntrpg:astronomy
 
-*Description:* 
+*Description:* ntrpg.skills.astronomy.desc
 
 *DamageType:* Deals no damage
 
@@ -889,11 +1369,39 @@
 
 
 
+---###### ForgeSteelDagger
+
+*ID:* craft:steeldagger
+
+*Description:* Forge Steel Dagger
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
 ---###### mithrilpick
 
 *ID:* strix:mithrilpick
 
-*Description:* 
+*Description:* strix.skills.mithrilpick.desc
 
 *DamageType:* Deals no damage
 
@@ -901,11 +1409,11 @@
 
 
 
----###### Dodge
+---###### ntrpg.skills.dodge.name
 
 *ID:* ntrpg:dodge
 
-*Description:* 
+*Description:* ntrpg.skills.dodge.desc
 
 *DamageType:* Deals no damage
 
@@ -917,11 +1425,11 @@
 
 
 
----###### Speed
+---###### ntrpg.skills.speed.name
 
 *ID:* ntrpg:speed
 
-*Description:* 
+*Description:* ntrpg.skills.speed.desc
 
 *DamageType:* Deals no damage
 
@@ -949,13 +1457,13 @@
 
 
 
----###### Basher
+---###### ntrpg.skills.basher.name
 
 *ID:* ntrpg:basher
 
-*Description:* 
+*Description:* ntrpg.skills.basher.desc
 
-*DamageType:* attack
+*DamageType:* minecraft:attack
 
 *Parameters:*
 
@@ -977,41 +1485,13 @@
 
 
 
----###### SmeltBronzeBar
-
-*ID:* craft:smeltbronze
-
-*Description:* Test
-
-*DamageType:* Deals no damage
-
-*Parameters:*
-
-   * mana_levelbonus
-
-   * manacost
-
-   * mana
-
-   * hpcost_levelbonus
-
-   * manacost_levelbonus
-
-   * hpcost
-
-   * cooldown
-
-   * cooldown_levelbonus
-
-
-
----###### Megabolt
+---###### ntrpg.skills.megabolt.name
 
 *ID:* ntrpg:megabolt
 
-*Description:* 
+*Description:* ntrpg.skills.megabolt.desc
 
-*DamageType:* lightning
+*DamageType:* ntrpg:lightning
 
 *Parameters:*
 
@@ -1037,11 +1517,91 @@
 
 
 
----###### Web
+---###### mithrilarmor
+
+*ID:* strix:mithrilarmor
+
+*Description:* strix.skills.mithrilarmor.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### ForgeIronPick
+
+*ID:* craft:ironpick
+
+*Description:* Forge Iron Pick
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeIronSabatons
+
+*ID:* craft:ironsabatons
+
+*Description:* Forge Iron Sabatons
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### steelarmor
+
+*ID:* strix:steelarmor
+
+*Description:* strix.skills.steelarmor.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### ntrpg.skills.web.name
 
 *ID:* ntrpg:web
 
-*Description:* 
+*Description:* ntrpg.skills.web.desc
 
 *DamageType:* Deals no damage
 
@@ -1069,13 +1629,13 @@
 
 
 
----###### Multibolt
+---###### ntrpg.skills.multibolt.name
 
 *ID:* ntrpg:multibolt
 
-*Description:* 
+*Description:* ntrpg.skills.multibolt.desc
 
-*DamageType:* lightning
+*DamageType:* ntrpg:lightning
 
 *Parameters:*
 
@@ -1105,13 +1665,13 @@
 
 
 
----###### IceBolt
+---###### ntrpg.skills.icebolt.name
 
 *ID:* ntrpg:icebolt
 
-*Description:* 
+*Description:* ntrpg.skills.icebolt.desc
 
-*DamageType:* ice
+*DamageType:* ntrpg:ice
 
 *Parameters:*
 
@@ -1145,11 +1705,11 @@
 
 
 
----###### CraftBonzeDagger
+---###### ForgeSteelSabatons
 
-*ID:* craft:bronzedagger
+*ID:* craft:steelsabatons
 
-*Description:* Test
+*Description:* Forge Steel Sabatons
 
 *DamageType:* Deals no damage
 
@@ -1173,13 +1733,81 @@
 
 
 
----###### Pandemic
+---###### ForgeBronzeDagger
+
+*ID:* craft:bronzedagger
+
+*Description:* Forge Bronze Dagger
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeIronLegs
+
+*ID:* craft:ironlegs
+
+*Description:* Forge Iron Legs
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ironpick
+
+*ID:* strix:ironpick
+
+*Description:* strix.skills.ironpick.desc
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+
+
+---###### ntrpg.skills.pandemic.name
 
 *ID:* ntrpg:pandemic
 
-*Description:* 
+*Description:* ntrpg.skills.pandemic.desc
 
-*DamageType:* magic
+*DamageType:* minecraft:magic
 
 *Parameters:*
 
@@ -1213,13 +1841,13 @@
 
 
 
----###### Critical
+---###### ntrpg.skills.critical.name
 
 *ID:* ntrpg:critical
 
-*Description:* 
+*Description:* ntrpg.skills.critical.desc
 
-*DamageType:* meelecritical
+*DamageType:* minecraft:attack
 
 *Parameters:*
 
@@ -1233,11 +1861,123 @@
 
 
 
----###### Invisibility
+---###### SmeltBronzeBar
+
+*ID:* craft:bronzebar
+
+*Description:* Smelt Bronze Bars
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### SmeltSteelBar
+
+*ID:* craft:steelbar
+
+*Description:* Smelt Steel Bars
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeBronzeMace
+
+*ID:* craft:bronzemace
+
+*Description:* Forge Bronze Mace
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeIronDagger
+
+*ID:* craft:irondagger
+
+*Description:* Forge Iron Dagger
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.invisibility.name
 
 *ID:* ntrpg:invisibility
 
-*Description:* 
+*Description:* ntrpg.skills.invisibility.desc
 
 *DamageType:* Deals no damage
 
@@ -1305,13 +2045,41 @@
 
 
 
----###### Despair
+---###### ForgeSteelLongsword
+
+*ID:* craft:steellongsword
+
+*Description:* Forge Steel Longsword
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.despair.name
 
 *ID:* ntrpg:despair
 
-*Description:* 
+*Description:* ntrpg.skills.despair.desc
 
-*DamageType:* magic
+*DamageType:* minecraft:magic
 
 *Parameters:*
 
@@ -1341,11 +2109,11 @@
 
 
 
----###### ShadowRun
+---###### ntrpg.skills.shadowrun.name
 
 *ID:* ntrpg:shadowrun
 
-*Description:* 
+*Description:* ntrpg.skills.shadowrun.desc
 
 *DamageType:* Deals no damage
 
@@ -1385,13 +2153,69 @@
 
 
 
----###### Drain
+---###### ForgeIronPlate
+
+*ID:* craft:ironplate
+
+*Description:* Forge Iron Plate
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeSteelPick
+
+*ID:* craft:steelpick
+
+*Description:* Forge Steel Pick
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ntrpg.skills.drain.name
 
 *ID:* ntrpg:drain
 
-*Description:* 
+*Description:* ntrpg.skills.drain.desc
 
-*DamageType:* attack
+*DamageType:* minecraft:attack
 
 *Parameters:*
 
@@ -1401,13 +2225,13 @@
 
 
 
----###### BrainSap
+---###### ntrpg.skills.brainsap.name
 
 *ID:* ntrpg:brainsap
 
-*Description:* 
+*Description:* ntrpg.skills.brainsap.desc
 
-*DamageType:* magic
+*DamageType:* minecraft:magic
 
 *Parameters:*
 
@@ -1433,15 +2257,71 @@
 
 
 
----###### EnderPearl
+---###### ntrpg.skills.enderpearl.name
 
 *ID:* ntrpg:enderpearl
 
-*Description:* 
+*Description:* ntrpg.skills.enderpearl.desc
 
 *DamageType:* Deals no damage
 
 *Parameters:*
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeIronHelm
+
+*ID:* craft:ironhelm
+
+*Description:* Forge Iron Helm
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
+
+   * cooldown
+
+   * cooldown_levelbonus
+
+
+
+---###### ForgeSteelLegs
+
+*ID:* craft:steellegs
+
+*Description:* Forge Steel Legs
+
+*DamageType:* Deals no damage
+
+*Parameters:*
+
+   * mana_levelbonus
+
+   * manacost
+
+   * mana
+
+   * hpcost_levelbonus
+
+   * manacost_levelbonus
+
+   * hpcost
 
    * cooldown
 
@@ -1487,15 +2367,9 @@
 
 ###### stun
 
-*Description:* Stuns the target, Stunned entities may not move, nor use skills
+*Description:* Stuns the target, Stunned entities may not move, nor use skill
 
-*Parameters:* Void
-
-###### speed
-
-*Description:* An effect which increases target walk speed
-
-*Parameters:* float
+*Parameters:* void
 
 ###### movement speed
 
@@ -1503,17 +2377,23 @@
 
 *Parameters:* float
 
+###### speed
+
+*Description:* An effect which increases target walk speed
+
+*Parameters:* float
+
 ###### fire particles
 
 *Description:* Does nothing on its own, just periodically draws particles around target
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### defaultmanaregen
 
 *Description:* A component which enables mana regeneration
 
-*Parameters:* Void
+*Parameters:* 
 
 ###### fissure
 
@@ -1525,13 +2405,13 @@
 
 *Description:* An effect which gives water_breathing potion effect to the target
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### silence
 
 *Description:* An effect which silences the target. Silenced target cannot casts spells, unless the skill has type CAN_CAST_WHILE_SILENCED
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### cooldownobserver
 
@@ -1545,33 +2425,21 @@
 
 *Parameters:* String
 
-###### mana drain
-
-*Description:* An effect whichgives manadrain to the target
-
-*Parameters:* float
-
 ###### resolute technique
 
 *Description:* Entity having this effect will never deal critical strike, nor may be stunned
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### clickcombos
 
 *Description:* A component which enables click-combos
 
-*Parameters:* Void
+*Parameters:* 
 
 ###### dodge
 
 *Description:* % chance to dodge incoming physical damage
-
-*Parameters:* float
-
-###### fire resistance
-
-*Description:* Increases resistance against fire damage
 
 *Parameters:* float
 
@@ -1581,11 +2449,17 @@
 
 *Parameters:* double
 
+###### fire resistance
+
+*Description:* Increases resistance against fire damage
+
+*Parameters:* float
+
 ###### blindness
 
 *Description:* Applies potion effect blindness to the target
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### burning prescense
 
@@ -1593,15 +2467,9 @@
 
 *Parameters:* BPModel
 
-###### lightning resistance
-
-*Description:* Increases resistance against lightning damage
-
-*Parameters:* float
-
 ###### dampen
 
-*Description:* An effect which cancells all incoming damage to the target, if attacking player has manapool below specific % value
+*Description:* An effect which cancels all incoming damage to the target, if attacking player has manapool below specific % value
 
 *Parameters:* double
 
@@ -1609,25 +2477,25 @@
 
 *Description:* Increases resistance against fire, ice and lightning damage
 
-*Parameters:* long
+*Parameters:* float
+
+###### lightning resistance
+
+*Description:* Increases resistance against lightning damage
+
+*Parameters:* float
 
 ###### manashield
 
 *Description:* Redirects all incoming damage to mana
 
-*Parameters:* Void
+*Parameters:* ManaShieldEffectModel
 
 ###### alchemy
 
 *Description:* A component which allows player to interact with brewning stand block
 
-*Parameters:* Void
-
-###### all skills
-
-*Description:* An effect which gives +x bonus points to all skills
-
-*Parameters:* int
+*Parameters:* void
 
 ###### manacost reduction
 
@@ -1639,29 +2507,51 @@
 
 *Description:* An effect which makes the target invisible (Not by potion effect but by packets
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### defaulthealthregen
 
 *Description:* A component which enables default health regeneration
 
-*Parameters:* Void
+*Parameters:* 
 
 ###### bloodmagic
 
 *Description:* An effect which will redirect all skill's mana consumption to the health pool
 
-*Parameters:* Void
+*Parameters:* void
 
 ###### ender pearl
 
 *Description:* An effect which allows target to throw and  teleport via ender pearl
 
-*Parameters:* Long
+*Parameters:* 
+
+   * MIN_VALUE - long
+
+   * MAX_VALUE - long
+
+   * TYPE - Class
+
+   * SIZE - int
+
+   * BYTES - int
 
 ###### life after each kill
 
 *Description:* Heals the target after each kill
+
+*Parameters:* float
+
+###### sloweffect
+
+*Description:* Decreases movement speed
+
+*Parameters:* SlowModel
+
+###### charactermana drain
+
+*Description:* An effect whichgives manadrain to the target
 
 *Parameters:* float
 
@@ -1675,6 +2565,12 @@
 
 *Description:* Periodically heals the target and recharges mana
 
-*Parameters:* Void
+*Parameters:* VitalizeEffectModel
+
+###### all skill
+
+*Description:* An effect which gives +x bonus points to all skill
+
+*Parameters:* int
 
 

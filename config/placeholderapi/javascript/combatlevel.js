@@ -1,5 +1,7 @@
-var RpgPlugin = Java.type("cz.neumimto.rpg.NtRpgPlugin")
-var combat = character.getClassByType("combat");
-if (combat !== null) {
-   var level = combat.getLevel();
+var RpgPlugin = new JavaImporter("cz.neumimto.rpg.NtRpgPlugin")
+with(RpgPlugin) {
+    var Combat = character.getClassByType("Combat");
+    if (Combat !== null) {
+       var level = Combat.getLevel();
+    }
 }

@@ -1,5 +1,5 @@
 //loads NTRPG Plugin
-var RpgPlugin = Java.type("cz.neumimto.rpg.NtRpgPlugin")
+var RpgPlugin = Java.type("cz.neumimto.rpg.sponge.NtRpgPlugin")
 //on NPC interaction
 function interact(event) {
 //////////

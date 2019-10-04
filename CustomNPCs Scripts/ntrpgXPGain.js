@@ -5,6 +5,6 @@ function died(event) {
     var maxHealth = event.npc.getMaxHealth();
     //if the death event source and it's type are PLAYER run the command, else null
     if(event.source && event.source.getType() == EntityType_PLAYER){
-        event.npc.executeCommand("nadmin exp add " + attackerName + " melee " + maxHealth + "");
+        event.npc.executeCommand("nadmin exp add " + attackerName + " " + maxHealth + " PVE Combat");
   }
 }

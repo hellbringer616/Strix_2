@@ -1,5 +1,5 @@
 //loads NTRPG Plugin
-var RpgPlugin = Java.type("cz.neumimto.rpg.NtRpgPlugin");
+var RpgPlugin = Java.type("cz.neumimto.rpg.sponge.NtRpgPlugin");
 //On interact with NPC
 function interact(event) {
   var sneak = event.player.isSneaking(); //is the player sneaking

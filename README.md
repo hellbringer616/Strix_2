@@ -12,4 +12,4 @@ _NeumimTo_ - For his awesome API NT-RPG/NT-Core i use to make all of this possib
 
 _OnapleRPG_ - For your wonderful plugins Itemizer and Havester, and also for answering my dumb questions.
 
-_Random-Byte_ - For your plugins Command-Utils and ByteItems; And also for adding in a feature to Command-Utils to make my crafting system function.
+_Random-Byte_ and _GlassSpirit_ for all your help while i fumble around coding.

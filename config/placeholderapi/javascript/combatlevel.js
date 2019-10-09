@@ -1,9 +1,10 @@
-var RpgPlugin = Java.type("cz.neumimto.rpg.sponge.NtRpgPlugin"); //load NT-RPG
-var JavaUUID = Java.type('java.util.UUID'); //Magic?
-var uid = event.player.getUUID(); //Get Player UUID string
-var character = RpgPlugin.GlobalScope.characterService.getCharacter(JavaUUID.fromString(uid)); //load NT-RPG Character service and get UUID than convert to Java UUID
-var combat = character.getClassByType("Combat");
-    if (combat !== null) {
-       var level = combat.getLevel();
-
-}
+//loads NTRPG Plugin
+var RpgPlugin = Java.type("cz.neumimto.rpg.sponge.NtRpgPlugin");
+  var className = "Combat" //must be a string
+  var uid = event.player.getUUID(); //Get Player UUID string
+  var JavaUUID = Java.type('java.util.UUID'); //problematic line...
+  var character = RpgPlugin.GlobalScope.characterService.getCharacter(JavaUUID.fromString(uid)); //load NT-RPG Character service and get UUID than convert to Java UUID
+  var classData = character.getClasses().get(className); //gets class data from character
+  if(classData !== null) { //checks if classData returns null
+    var out = classData.getLevel();
+  }
